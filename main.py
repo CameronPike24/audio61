@@ -361,14 +361,14 @@ class Recorder(object):
         #Step 4 - Prepare wav file to be tested . Test different examples. When live on android use the captured sound to test with so you dont need 
         ######################################################
         
-        #self.random_audio = self.audio_path_out
+        self.random_audio = self.audio_path_out
 
         #self.random_audio = 'House Sparrow.wav'
         #self.random_audio = 'White-breasted Wood-Wren.wav'
         #self.random_audio = 'Azara_s Spinetail.wav'
         #self.random_audio = 'Chestnut-crowned Antpitta.wav'
         #self.random_audio = 'Red Crossbill.wav'  
-        self.random_audio = 'House_Sparrow_downsampled.wav' 
+        #self.random_audio = 'House_Sparrow_downsampled.wav' 
  
  
         self.wav_file = wave.open(self.random_audio, 'rb')
